@@ -349,6 +349,7 @@ def browse_func():
     if selected_path:
         path_entry.delete(0, 'end')
         path_entry.insert(0, selected_path)
+    update_preview()
 
 # def preview_func():
 #     preview=preview_switch.get()
@@ -423,7 +424,6 @@ path_entry.grid(row=0, column=1, pady=10, padx=10)
 path_entry.bind("<KeyRelease>", update_preview)
 browse_btn= ctk.CTkButton(frame_1, text="Browse", command=browse_func, width=100)
 browse_btn.grid(row=0, column=2,pady=10)
-browse_btn.bind("<Button-1>", update_preview)
 #============ PATTERN (label-menu) (FIXED) ========================================
 pattern_label = ctk.CTkLabel(frame_1, text="Pattern:", font=("Arial", 16))
 pattern_label.grid(row=1, column=0, padx=10,pady=10, sticky="w")

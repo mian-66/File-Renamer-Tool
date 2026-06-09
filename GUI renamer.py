@@ -63,6 +63,7 @@ def renamer_btn_func():
 
                         result=renamer_func(old_name, new_name, old, new)
 
+
                         if result == 1:
                             count+=1
                             success_count += 1

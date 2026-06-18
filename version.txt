@@ -1,0 +1,29 @@
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    # The file version (Major, Minor, Build, Revision)
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+    ),
+  kids=[
+    StringFileInfo(
+      [
+      StringTable(
+        u'040904B0',
+        [StringStruct(u'CompanyName', u'Umair - Power Devs'),
+        StringStruct(u'FileDescription', u'A professional bulk file renaming tool.'),
+        StringStruct(u'FileVersion', u'1.0.0'),
+        StringStruct(u'InternalName', u'ProRenamer'),
+        StringStruct(u'LegalCopyright', u'Copyright (c) 2026 Power Devs. All rights reserved.'),
+        StringStruct(u'OriginalFilename', u'ProRenamer.exe'),
+        StringStruct(u'ProductName', u'Pro Renamer Utility'),
+        StringStruct(u'ProductVersion', u'1.0.0')])
+      ]), 
+    VarFileInfo([VarStruct(u'Translation', [1033, 1200])])
+  ]
+)

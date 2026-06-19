@@ -15,7 +15,7 @@ def resource_path(relative_path):
 app = ctk.CTk()
 app.geometry("430x500")
 app.title("File Renamer Tool")
-app.iconbitmap(resource_path("my_icon.ico"))
+app.iconbitmap(resource_path("app_icon.ico"))
 
 def renamer_func(old_name, new_name, old, new):
     try:

@@ -1,11 +1,21 @@
 import os
+import sys
 import customtkinter as ctk
 from tkinter import filedialog
+
+def resource_path(relative_path):
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        # If not running as .exe, use the normal current folder
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
 
 app = ctk.CTk()
 app.geometry("430x500")
 app.title("File Renamer Tool")
-app.iconbitmap("my_icon.ico")
+app.iconbitmap(resource_path("my_icon.ico"))
 
 def renamer_func(old_name, new_name, old, new):
     try:

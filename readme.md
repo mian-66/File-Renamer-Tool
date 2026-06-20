@@ -31,6 +31,7 @@ If you want to run the raw Python code or build the executable yourself:
 
 2. **Install the required libraries:**
    ```bash
+   pip install tkinter
    pip install customtkinter
    ```
 

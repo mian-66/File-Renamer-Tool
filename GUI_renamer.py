@@ -13,8 +13,8 @@ def resource_path(relative_path):
     return os.path.join(base_path, relative_path)
 
 app = ctk.CTk()
-app.geometry("430x500")
-app.title("File Renamer Tool")
+app.geometry("430x565")
+app.title("Pro Renamer v1.0")
 app.iconbitmap(resource_path("app_icon.ico"))
 
 def renamer_func(old_name, new_name, old, new):
@@ -39,7 +39,7 @@ def renamer_btn_func():
     preview_box.configure(state="normal")
     preview_box.delete("0.0", "end")
     if not os.path.isdir(path):
-        preview_box.insert("end", "Invalid Path... :(\n\nEnter valid path :)")
+        preview_box.insert("end", "Invalid Path...\n\nEnter valid path to continue :)")
         preview_box.configure(state="disabled")
         return
     else:
@@ -488,5 +488,15 @@ rename_btn.pack(pady=10)
 #=========== Console Box (textbox) (FIXED) ====================================
 preview_box = ctk.CTkTextbox(frame_3, width=410, height=250, state="disabled", border_width=2, font=("Consolas", 12))
 preview_box.pack(pady=0)
+
+frame_4 = ctk.CTkFrame(app, fg_color="transparent")
+frame_4.grid(row=3, column=0,padx=10,pady=10, sticky="nsew")
+# Configure grid so labels are centered vertically
+frame_4.grid_columnconfigure(0, weight=1)
+
+author= ctk.CTkLabel(frame_4, text="Umair - Power Devs", font=("Arial", 14))
+author.grid(row=0)
+github_url= ctk.CTkLabel(frame_4, text="github.com/mian-66/File-Renamer-Tool",font=("Arial", 14))
+github_url.grid(row=1)
 
 app.mainloop()

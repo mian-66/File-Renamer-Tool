@@ -1,4 +1,4 @@
-# Pro Renamer Utility v1.0 📂✨
+# Pro Renamer Utility 📂
 
 A lightweight, professional desktop application built in Python to batch-rename files instantly. Say goodbye to renaming hundreds of files by hand!
 

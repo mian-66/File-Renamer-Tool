@@ -48,4 +48,8 @@ If you want to run the raw Python code or build the executable yourself:
 - **PyInstaller** (Standalone executable packaging)
 
 
-![App Screenshot - Sequence](screenshots/ProRenamer - Sequence.png)
+![App Screenshot - Sequence](https://github.com/mian-66/File-Renamer-Tool/blob/main/screenshots/ProRenamer%20-%20Sequence.png)
+![ProRenamer - Prefix](https://github.com/mian-66/File-Renamer-Tool/blob/main/screenshots/ProRenamer%20-%20Prefix.png)
+![ProRenamer - Suffix](https://github.com/mian-66/File-Renamer-Tool/blob/main/screenshots/ProRenamer%20-%20Suffix.png)
+![ProRenamer - Case Swap](https://github.com/mian-66/File-Renamer-Tool/blob/main/screenshots/ProRenamer%20-%20Case%20Swap.png)
+![ProRenamer - Replace](https://github.com/mian-66/File-Renamer-Tool/blob/main/screenshots/ProRenamer%20-%20Replace.png)

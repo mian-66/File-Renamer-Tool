@@ -46,3 +46,6 @@ If you want to run the raw Python code or build the executable yourself:
 - **Python 3**
 - **CustomTkinter** (Modern GUI framework)
 - **PyInstaller** (Standalone executable packaging)
+
+
+![App Screenshot - Sequence](screenshots/ProRenamer - Sequence.png)

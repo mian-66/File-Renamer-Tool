@@ -52,10 +52,14 @@ If you want to run the raw Python code or build the executable yourself:
 
 ![App Screenshot - Sequence](https://github.com/mian-66/File-Renamer-Tool/blob/main/screenshots/ProRenamer%20-%20Sequence.png)
 - **Pattern: Prefix**
+
 ![ProRenamer - Prefix](https://github.com/mian-66/File-Renamer-Tool/blob/main/screenshots/ProRenamer%20-%20Prefix.png)
 - **Pattern: Suffix**
+
 ![ProRenamer - Suffix](https://github.com/mian-66/File-Renamer-Tool/blob/main/screenshots/ProRenamer%20-%20Suffix.png)
 - **Pattern: Case Swap**
+
 ![ProRenamer - Case Swap](https://github.com/mian-66/File-Renamer-Tool/blob/main/screenshots/ProRenamer%20-%20Case%20Swap.png)
 - **Pattern: Replace**
+
 ![ProRenamer - Replace](https://github.com/mian-66/File-Renamer-Tool/blob/main/screenshots/ProRenamer%20-%20Replace.png)

@@ -49,6 +49,7 @@ If you want to run the raw Python code or build the executable yourself:
 ---
 ## 📷 App ScreenShots
 - **Pattern: Sequence**
+
 ![App Screenshot - Sequence](https://github.com/mian-66/File-Renamer-Tool/blob/main/screenshots/ProRenamer%20-%20Sequence.png)
 - **Pattern: Prefix**
 ![ProRenamer - Prefix](https://github.com/mian-66/File-Renamer-Tool/blob/main/screenshots/ProRenamer%20-%20Prefix.png)

@@ -31,13 +31,12 @@ If you want to run the raw Python code or build the executable yourself:
 
 2. **Install the required libraries:**
    ```bash
-   pip install tkinter
    pip install customtkinter
    ```
 
 3. **Run the script:**
    ```bash
-   python renamer_app.py
+   python ProRenamer.py
    ```
 
 ---

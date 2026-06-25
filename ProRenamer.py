@@ -26,7 +26,7 @@ def renamer_func(old_name, new_name, old, new):
         preview_box.insert("end", msg)
         return 1
     except Exception as e:
-        msg=f"File {old_name} not successfully renamed...\nReason: {e}\n"
+        msg=f"Failed to rename: {old_name} \nReason: {e}\n"
         preview_box.insert("end", msg)
         return 0
 # 0=false, 1=true, return=unchanged
